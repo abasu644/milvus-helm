@@ -1,0 +1,925 @@
+apiVersion: v1
+entries:
+  milvus:
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.2
+    created: "2021-07-26T08:19:31.346437612Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: bd01323ceccf5b2d4bee89c5e5e52b5655c80e6b7bb19a6dec072e50713d1e9b
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.1.0/milvus-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.2
+    created: "2021-07-26T07:53:20.310575113Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 0d6428f8d7b6b44b6c85c0a098dff88702ab36326f4be645f937c72ed8a94e8e
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.9/milvus-2.0.9.tgz
+    version: 2.0.9
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.2
+    created: "2021-07-21T08:51:48.866196229Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: a44209f0097b2fcca77d6907fd4fde7e756d1ac94f2e1dce3c0b86c65137c793
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.8/milvus-2.0.8.tgz
+    version: 2.0.8
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.2
+    created: "2021-07-20T08:01:49.717196284Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 738f2c0b89b0f0176ae58e466831d28384a594eaa01aff7f7641bb8537b6e811
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.7/milvus-2.0.7.tgz
+    version: 2.0.7
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.2
+    created: "2021-07-13T02:44:04.102869428Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: c27670371395e99b127558e77c8db854ec7ac3e28e2d4c107da18b7b462bc808
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.6/milvus-2.0.6.tgz
+    version: 2.0.6
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-07-09T08:24:59.970704726Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 0e34e34fec4c4cf9a86cdd4910fe3ecbdab0c1b9df6cebfc9ee63d6d6af42df6
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.5/milvus-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-07-02T10:05:48.895959001Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 674213ccfbde383bd1b185fafa91bb7405f7f53a3f83a0a1a9dfe96fad444159
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.4/milvus-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-07-01T09:37:50.905934216Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 983b1d02d2f1e84aef8571b31fd93e6bd31d18476195afc7b876985b14cac2b6
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.3/milvus-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-07-01T06:59:50.890908235Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open-source vector database built to power AI applications and vector similarity search.
+    digest: 5d4f5a303119d81025072b038067e4b309eac9721dd03ed915fba8373f09e394
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.2/milvus-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-06-30T08:01:36.969298117Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: c2f6c652db1325e6acf09e90ae16ae601e0799841216b9ea01b3bdf4ddfb8f40
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.1/milvus-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 2.0.0-rc.1
+    created: "2021-06-28T10:41:23.314274129Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - etcd
+      version: 5.5.0
+    - condition: minio.enabled
+      name: minio
+      repository: https://helm.min.io
+      tags:
+      - minio
+      version: 8.0.9
+    - condition: pulsar.enabled
+      name: pulsar
+      repository: https://helm.kafkaesque.io
+      tags:
+      - pulsar
+      version: 1.0.31
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: a12ebfef3e9404b32cb8c5db8e1cc2f4a697db18b4679d38f94b9b5672e0ad2c
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-2.0.0/milvus-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 1.1.1
+    created: "2021-06-17T07:53:01.87737406Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: bc6c56a192cb5a932bcd8da21acb4226ad763971fe944c248679ad9e0de30002
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.1.4/milvus-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-06-15T15:07:24.614165522Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 8af7ab010141dccb8c118f1c9c5361fd742c3417f85ad759198a246af04765fd
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/v1.0.0/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.1.3/milvus-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-06-15T14:00:33.237629846Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: b829d99ff5124595d382f6a3bf38204fb76fc5da2366af5b0170646e47430cc3
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.1.2/milvus-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-05-27T09:09:26.305493954Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: a73d7b7f264e69570a91e33c05fef7e87a3f779ad988218eb40b8c6587b22a68
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.1.1/milvus-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-05-07T08:07:19.828603133Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: c8ce4a4eff4c7f630edeeaa2ca1780353ddb41c8cf70df8c896949a00e7a3d77
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.1.0/milvus-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2021-03-24T06:42:12.954633424Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 893fa9d65709b084fe91abf7262bf469eccb515d63736f63b4a95dfb68def7f7
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.0.1/milvus-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2021-03-10T11:49:47.372920229Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: b087ffdd286e4f95288a6ab3fd54f858af3d183073160b64b1ba3c7bfb302355
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-1.0.0/milvus-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 0.10.6
+    created: "2021-02-23T03:21:07.844238312Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 997ba66743d53b931751b7064c5202f4e24a65f37bf8c51647aed920962c6073
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.6/milvus-0.10.6.tgz
+    version: 0.10.6
+  - apiVersion: v1
+    appVersion: 0.10.5
+    created: "2021-01-07T02:57:58.984223227Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 42dbf8222382ace455a10ff3524fa8288e3d9cd710b516b07328eac3a2b252d6
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: zhifeng.zhang@zilliz.com
+      name: jeffoverflow
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.5/milvus-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v1
+    appVersion: 0.10.4
+    created: "2020-12-03T09:36:43.117139928Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 277e0bdc4e6fff4567e79c75848d863efa3d169dc52b06a0ec47bab88f04e10e
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: community@zilliz.com
+      name: community
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.4/milvus-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 0.10.3
+    created: "2020-09-17T16:11:34.228106814Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: c4809dd1bfdfa7b247a8650fc6fdd0eac30c2ca5e06a84ac286b497b56dc0ff4
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: community@zilliz.com
+      name: community
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.3/milvus-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.10.2
+    created: "2020-08-15T08:05:11.663398469Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 5924d699c57d763d6b989a0dc3d75646054a98e3858c8d43c03d81571d6fb5b3
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: community@zilliz.com
+      name: community
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.2/milvus-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 0.10.1
+    created: "2020-07-20T09:53:06.479602861Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: 99b40dcb36c00509a7d4262c328e756ee4d94ad363040a4a9e7ee408408ad7b9
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: community@zilliz.com
+      name: community
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.1/milvus-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.10.0
+    created: "2020-06-17T15:38:49.854615+08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - mysql-database
+      version: 1.6.4
+    description: Milvus is an open source similarity search engine for massive-scalefeature vectors.
+    digest: e1199d410c16c1ddf45fea3c4b186ac68ce7744db54c737d58222eab4684a3b6
+    home: https://milvus.io/
+    icon: https://raw.githubusercontent.com/milvus-io/docs/master/assets/milvus_logo.png
+    keywords:
+    - milvus
+    - elastic
+    - vector
+    - search
+    - deploy
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: community@zilliz.com
+      name: community
+      url: www.zilliz.com
+    name: milvus
+    sources:
+    - https://github.com/milvus-io/milvus
+    - https://github.com/milvus-io/milvus-helm
+    urls:
+    - https://github.com/milvus-io/milvus-helm/releases/download/milvus-0.10.0/milvus-0.10.0.tgz
+    version: 0.10.0
+generated: "2020-06-17T15:38:49.792064+08:00"
